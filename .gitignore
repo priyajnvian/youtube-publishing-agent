@@ -1,0 +1,23 @@
+# Credentials and per-run output: OAuth client secret, tokens, transcripts,
+# metadata drafts. Everything in here is private.
+workdir/
+client_secret*.json
+*token*.json
+
+# Third-party MCP server binary (github.com/anwerj/youtube-uploader-mcp)
+youtube-uploader-mcp-*
+
+# Local Claude Code permissions contain machine-specific paths
+.claude/settings.local.json
+
+# Thumbnail inputs and outputs (guest photos)
+*.jpg
+*.jpeg
+*.png
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
